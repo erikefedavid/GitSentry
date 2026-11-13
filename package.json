@@ -6,7 +6,19 @@
   "bin": {
     "gitsentry": "./bin/cli.js"
   },
+  "files": [
+    "bin",
+    "lib"
+  ],
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erikefedavid/GitSentry.git"
+  },
+  "homepage": "https://daviderikefe.vercel.app/#projects",
+  "bugs": {
+    "url": "https://github.com/erikefedavid/GitSentry/issues"
+  },
   "scripts": {
     "test": "node bin/cli.js audit",
     "audit": "node bin/cli.js audit"
