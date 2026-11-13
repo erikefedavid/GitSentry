@@ -1,0 +1,24 @@
+{
+  "name": "gitsentry",
+  "version": "1.0.0",
+  "description": "Autonomous frontend design, animation performance, and anti-AI-tell codebase auditor.",
+  "main": "bin/cli.js",
+  "bin": {
+    "gitsentry": "./bin/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node bin/cli.js audit",
+    "audit": "node bin/cli.js audit"
+  },
+  "keywords": [
+    "frontend-audit",
+    "animation-physics",
+    "layout-thrashing",
+    "impeccable-design",
+    "anti-ai-tells",
+    "performance"
+  ],
+  "author": "David Erikefe (davebuiltit)",
+  "license": "MIT"
+}
